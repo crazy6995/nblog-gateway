@@ -94,8 +94,8 @@ github.com/go-kit/kit v0.9.0/go.mod h1:xBxKIO96dXMWWy0MnWVtmwkA9/13aqxPnvrjFYMA2
 github.com/go-kit/log v0.1.0/go.mod h1:zbhenjAZHb184qTLMA9ZjW7ThYL0H2mk7Q6pNt4vbaY=
 github.com/go-kratos/aegis v0.1.1 h1:QnIwUwVMnwIU8hZ+p4LKJnSEd1IE6qBBPTV7fgr3XQI=
 github.com/go-kratos/aegis v0.1.1/go.mod h1:jYeSQ3Gesba478zEnujOiG5QdsyF3Xk/8owFUeKcHxw=
-github.com/go-kratos/kratos/contrib/registry/consul/v2 v2.0.0-20220223091357-d6896127b137 h1:SPnBImL3mlZpHyurQQR5lKqssyO5N4moIncUIhoHLb8=
-github.com/go-kratos/kratos/contrib/registry/consul/v2 v2.0.0-20220223091357-d6896127b137/go.mod h1:UB1G3wVn0oR/viZXokBAopwHMDn3AuO11t2oRqa8zzY=
+github.com/go-kratos/kratos/contrib/registry/consul/v2 v2.0.0-20220315030210-f68702a8c2b3 h1:t2KsWbNqrB2CYjEHLCV8iUVZwyXYc1lBXUCB5ZHufHA=
+github.com/go-kratos/kratos/contrib/registry/consul/v2 v2.0.0-20220315030210-f68702a8c2b3/go.mod h1:UB1G3wVn0oR/viZXokBAopwHMDn3AuO11t2oRqa8zzY=
 github.com/go-kratos/kratos/v2 v2.2.0 h1:swSCoOdXD5F/L4eUfhapxSXe1I846hZz1wMLLixz9SA=
 github.com/go-kratos/kratos/v2 v2.2.0/go.mod h1:yebXu5KMayLjXZzMTY5HWIPRDwcBehHpiNF/Ot8A2pA=
 github.com/go-logfmt/logfmt v0.3.0/go.mod h1:Qt1PoO58o5twSAckw1HlFXLmHsOX5/0LbT9GBnD5lWE=
@@ -423,8 +423,8 @@ golang.org/x/net v0.0.0-20210226172049-e18ecbb05110/go.mod h1:m0MpNAwzfU5UDzcl9v
 golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4/go.mod h1:p54w0d4576C0XHj96bSt6lcn1PtDYWL6XObtHCRCNQM=
 golang.org/x/net v0.0.0-20210410081132-afb366fc7cd1/go.mod h1:9tjilg8BloeKEkVJvy7fQ90B1CfIiPueXVOjqfkSzI8=
 golang.org/x/net v0.0.0-20210525063256-abc453219eb5/go.mod h1:9nx3DQGgdP8bBQD5qxJ1jj9UTztislL4KSBs9R2vV5Y=
-golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd h1:O7DYs+zxREGLKzKoMQrtrEacpb0ZVXA5rIwylE2Xchk=
-golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd/go.mod h1:CfG3xpIq0wQ8r1q4Su4UZFWDARRcnwPjda9FqA0JpMk=
+golang.org/x/net v0.0.0-20220225172249-27dd8689420f h1:oA4XRj0qtSt8Yo1Zms0CUlsT3KG69V2UGQWPBxujDmc=
+golang.org/x/net v0.0.0-20220225172249-27dd8689420f/go.mod h1:CfG3xpIq0wQ8r1q4Su4UZFWDARRcnwPjda9FqA0JpMk=
 golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be/go.mod h1:N/0e6XlmueqKjAGxoOufVs8QHGRruUQn6yWY3a++T0U=
 golang.org/x/oauth2 v0.0.0-20190226205417-e64efc72b421/go.mod h1:gOpvHmFTYa4IltrdGE7lF6nIHvwfUNPOp7c8zoXwtLw=
 golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45/go.mod h1:gOpvHmFTYa4IltrdGE7lF6nIHvwfUNPOp7c8zoXwtLw=
@@ -628,10 +628,11 @@ google.golang.org/grpc v1.33.1/go.mod h1:fr5YgcSWrqhRRxogOsw7RzIpsmvOZ6IcH4kBYTp
 google.golang.org/grpc v1.36.0/go.mod h1:qjiiYl8FncCW8feJPdyg3v6XW24KsRHe+dy9BAGRRjU=
 google.golang.org/grpc v1.40.0/go.mod h1:ogyxbiOoUXAkP+4+xa6PZSE9DZgIHtSpzjDTB9KAK34=
 google.golang.org/grpc v1.43.0/go.mod h1:k+4IHHFw41K8+bbowsex27ge2rCb65oeWqe4jJ590SU=
-google.golang.org/grpc v1.44.0 h1:weqSxi/TMs1SqFRMHCtBgXRs8k3X39QIDEZ0pRcttUg=
 google.golang.org/grpc v1.44.0/go.mod h1:k+4IHHFw41K8+bbowsex27ge2rCb65oeWqe4jJ590SU=
-google.golang.org/grpc/examples v0.0.0-20220223153006-a73725f42db9 h1:V5Kzo1gto7mVGp3XWTKcKd6lUrZuuwvr88P+Xkm6hWw=
-google.golang.org/grpc/examples v0.0.0-20220223153006-a73725f42db9/go.mod h1:wKDg0brwMZpaizQ1i7IzYcJjH1TmbJudYdnQC9+J+LE=
+google.golang.org/grpc v1.45.0 h1:NEpgUqV3Z+ZjkqMsxMg11IaDrXY4RY6CQukSGK0uI1M=
+google.golang.org/grpc v1.45.0/go.mod h1:lN7owxKUQEqMfSyQikvvk5tf/6zMPsrK+ONuO11+0rQ=
+google.golang.org/grpc/examples v0.0.0-20220314230434-84793b56f63c h1:YL9Ki5Ak1h2ShVIMsHGheQVd1MmpN4c7CQzHcv32FjM=
+google.golang.org/grpc/examples v0.0.0-20220314230434-84793b56f63c/go.mod h1:wKDg0brwMZpaizQ1i7IzYcJjH1TmbJudYdnQC9+J+LE=
 google.golang.org/protobuf v0.0.0-20200109180630-ec00e32a8dfd/go.mod h1:DFci5gLYBciE7Vtevhsrf46CRTquxDuWsQurQQe4oz8=
 google.golang.org/protobuf v0.0.0-20200221191635-4d8936d0db64/go.mod h1:kwYJMbMJ01Woi6D6+Kah6886xMZcty6N08ah7+eCXa0=
 google.golang.org/protobuf v0.0.0-20200228230310-ab0ca4ff8a60/go.mod h1:cfTl7dwQJ+fmap5saPgwCLgHXTUD7jkjRqWcaiX5VyM=
